@@ -1,0 +1,14 @@
+name: pesquisa_otimizacao
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12.13
+  - pip
+  - ipykernel
+  - numpy
+  - matplotlib
+  - pip:
+      - pymoo
+      - markitdown
